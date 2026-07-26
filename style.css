@@ -1,13 +1,10 @@
-:root {
-  color-scheme: light dark;
-}
 
 body {
   font-family: sans-serif;
   margin: 2rem auto;
   max-width: 42rem;
   line-height: 1.5;
-  color: #f6faff;
+
 }
 
 main {
