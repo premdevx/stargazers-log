@@ -10,6 +10,13 @@
     <main>
       <h1>Stargazers log</h1>
       <p>A log of the repositories I've starred.</p>
+
+      <form class="site-search" role="search" action="index.html" method="get">
+        <label class="visually-hidden" for="site-search">Search repositories</label>
+        <input id="site-search" name="q" type="search" placeholder="Search repositories">
+        <button type="submit">Search</button>
+      </form>
+
       <p id="status" role="status" aria-live="polite">Loading starred repositories…</p>
       <ul id="starred" aria-label="Starred repositories"></ul>
     </main>
