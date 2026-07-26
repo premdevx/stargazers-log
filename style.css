@@ -1,14 +1,45 @@
+:root {
+  color-scheme: light dark;
+}
+
 body {
   font-family: sans-serif;
-  margin: 2rem;
+  margin: 2rem auto;
+  max-width: 42rem;
+  line-height: 1.5;
+  color: #1f2937;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+#status {
+  color: #4b5563;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
 }
 
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 li {
-  padding: 0.5rem 0;
+  padding: 0.75rem 0;
   border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: 0;
+}
+
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
 }
